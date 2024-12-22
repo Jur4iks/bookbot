@@ -3,9 +3,6 @@ def main():
     text = get_book_text(location_of_book_file)
     word_count = count_words(text)
     char_num = count_characters(text)
-
-  
-
     rep = gen_report(location_of_book_file,word_count,sort_on(char_num))
 
     print(rep)
